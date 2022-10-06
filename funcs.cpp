@@ -42,3 +42,16 @@ bool isPrime(int n)
     return false;
   }
 }
+
+//This function returns the smallest prime greater than n.
+int nextPrime(int n)
+{
+  for(int i = n + 1; i > n; i++)
+  {
+    if(isPrime(i) == true)
+    {
+      return i;
+    }
+  }
+  return 0;
+}
