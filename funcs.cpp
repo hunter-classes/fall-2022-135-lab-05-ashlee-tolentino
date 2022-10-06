@@ -69,3 +69,17 @@ int countPrimes(int a, int b)
   }
   return count;
 }
+
+//This function returns true if n is a twin prime, and it returns false otherwise.
+bool isTwinPrime(int n)
+{
+  if(isPrime(n) == true && (isPrime(n+2) == true || isPrime(n-2) == true))
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
+
