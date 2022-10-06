@@ -7,4 +7,5 @@ bool isPrime(int);
 int nextPrime(int);
 int countPrimes(int, int);
 bool isTwinPrime(int);
+int nextTwinPrime(int);
 
