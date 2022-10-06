@@ -95,3 +95,17 @@ int nextTwinPrime(int n)
   }
   return 0;
 }
+
+//This function returns the largest twin prime in the range a <= N <= b. If there is no twin primes in range, it returns -1.
+int largestTwinPrime(int a, int b)
+{
+  int largest = -1;
+  for(int i = a; i <= b; i++)
+  {
+    if(isTwinPrime(i) == true)
+    {
+      largest = i;
+    }
+  }
+  return largest;
+}
