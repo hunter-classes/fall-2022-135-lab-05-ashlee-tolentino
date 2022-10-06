@@ -4,7 +4,7 @@ Course: CSCI-135
 Instructor: Michael Zamansky
 Assignment: Lab5
 
-This program
+This program works with functions and prime numbers
 */
 
 #include <iostream>
@@ -83,3 +83,15 @@ bool isTwinPrime(int n)
   }
 }
 
+//This function returns the smallest twin prime greater than n.
+int nextTwinPrime(int n)
+{
+  for(int i = n + 1; i > n; i++)
+  {
+    if(isTwinPrime(i) == true)
+    {
+      return i;
+    }
+  }
+  return 0;
+}
