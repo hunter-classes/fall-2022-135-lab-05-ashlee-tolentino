@@ -55,3 +55,17 @@ int nextPrime(int n)
   }
   return 0;
 }
+
+//This function returns the number of prime numbers in the interval a <= x <= b.
+int countPrimes(int a, int b)
+{
+  int count = 0;
+  for(int i = a; i <= b; i++)
+  {
+    if(isPrime(i) == true)
+    {
+      count++;
+    }
+  }
+  return count;
+}
