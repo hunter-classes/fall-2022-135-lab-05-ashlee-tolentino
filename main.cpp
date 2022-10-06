@@ -24,6 +24,9 @@ int main()
 
   int result4 = countPrimes(2, 17);
   std::cout << "Task D " << result4 << std::endl;
+
+  bool result5 = isTwinPrime(17);
+  std::cout << "Task E " << result5 << std::endl;
   
   
   return 0;
