@@ -21,6 +21,9 @@ int main()
 
   int result3 = nextPrime(14);
   std::cout << "Task C " << result3 << std::endl;
+
+  int result4 = countPrimes(2, 47);
+  std::cout << "Task D " << result4 << std::endl;
   
   
   return 0;
