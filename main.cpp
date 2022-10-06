@@ -4,7 +4,7 @@ Course: CSCI-135
 Instructor: Michael Zamansky
 Assignment: Lab5
 
-This program 
+This program works with functions and prime numbers
 */
 
 #include <iostream>
@@ -27,6 +27,9 @@ int main()
 
   bool result5 = isTwinPrime(17);
   std::cout << "Task E " << result5 << std::endl;
+
+  int result6 = nextTwinPrime(29);
+  std::cout << "Task F " << result6 << std::endl;
   
   
   return 0;
