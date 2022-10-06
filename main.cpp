@@ -30,7 +30,9 @@ int main()
 
   int result6 = nextTwinPrime(29);
   std::cout << "Task F " << result6 << std::endl;
-  
+
+  int result7 = largestTwinPrime(5, 18);
+  std::cout << "Task G " << result7 << std::endl;
   
   return 0;
 }
